@@ -1,0 +1,82 @@
+name: iyadunni_shopmore
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+2
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'  # Fixed: Use string format
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^4.4.0
+  firebase_auth: ^6.1.4
+  cloud_firestore: ^6.1.2
+  firebase_messaging: ^16.1.1
+  shared_preferences: ^2.5.4
+  provider: ^6.1.5+1
+  share_plus: ^12.0.1
+  url_launcher: ^6.3.2
+  cupertino_icons: ^1.0.8
+  webview_flutter: ^4.7.0       # ← ADD THIS
+  http: ^1.2.1   
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+
+# ─── Launcher icons config ─────────────────────────────────────
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/Screenshot_20260305-015521_Photos.jpg"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/image-5.jpg
+    - assets/images (2).jpeg               # ← better (if it's a folder)
+    - assets/airbud.png
+    - assets/Efo Riro nd pounded yam.jpg
+    - assets/Fried Rice.png
+    - assets/Jollof Rice.jpg
+    - assets/Emala_Ewedu soup.jpg
+    - assets/Amala_Egusi soup.jpg
+    - assets/Amala_Efo2.jpg
+    - assets/smart_watch.2.jpg
+    - assets/oraimo_new_20000.webp
+    - assets/adaptor_advance.webp
+    - assets/cocacola_park.jpg
+    - assets/sprite_drink.jpg
+    - assets/maltina_drink.jpg
+    - assets/maltina_can_drink.jpg
+    - assets/Fanta_drink packs.jpg
+    - assets/oraimo_new_40000.jpg
+    - assets/hand_fan.avif
+    - assets/Chicken_chips.webp
+    - assets/chicken_chips_midi.jpg
+    - assets/chicken_meat2.webp
+    - assets/New_cloth1.png
+    - assets/eatry_rice.jpg
+    - assets/cooked_egg.jpeg
+    - assets/image_for_fishbig.jpg
+    - assets/eba and vegetable.jpg
+    - assets/eba_ewedu.jpg
+    - assets/ponma_meat.jpg
+    - assets/Screenshot_20260305-015521_Photos.jpg
+    - assets/O.A.U. kitchen Court.jpg
+    - assets/Dibbie's Kitchen.jpg
+    - assets/bazaarflow.cloth.2.jpg
+    - assets/bazaarflow.cloth.3.jpg
+    - assets/bazaarflow.cloth.4.jpg
+    - assets/bazaarflow.cloth.5.jpg
+    - assets/bazaarflow.cloth.6.jpg
+    - assets/bazaarflow.cloth.4.1.webp
+    - assets/bazaarflow.cloth.6.jpg
+    - assets/bazaarflow.cloth.7a.webp
+    - assets/bazaarflow.cloth.7.jpg

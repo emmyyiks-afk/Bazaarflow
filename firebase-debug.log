@@ -1,0 +1,84 @@
+[debug] [2026-03-20T15:04:17.118Z] ----------------------------------------------------------------------
+[debug] [2026-03-20T15:04:17.120Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\USER\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2026-03-20T15:04:17.121Z] CLI Version:   15.11.0
+[debug] [2026-03-20T15:04:17.121Z] Platform:      win32
+[debug] [2026-03-20T15:04:17.121Z] Node Version:  v25.8.1
+[debug] [2026-03-20T15:04:17.121Z] Time:          Fri Mar 20 2026 08:04:17 GMT-0700 (Pacific Daylight Time)
+[debug] [2026-03-20T15:04:17.121Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\USER\Desktop\my_first_app\project_blessed\project_success\project_successes\iyadunni_shopmore
+
+[debug] [2026-03-20T15:06:36.964Z] ----------------------------------------------------------------------
+[debug] [2026-03-20T15:06:36.967Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\USER\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init functions
+[debug] [2026-03-20T15:06:36.967Z] CLI Version:   15.11.0
+[debug] [2026-03-20T15:06:36.967Z] Platform:      win32
+[debug] [2026-03-20T15:06:36.968Z] Node Version:  v25.8.1
+[debug] [2026-03-20T15:06:36.968Z] Time:          Fri Mar 20 2026 08:06:36 GMT-0700 (Pacific Daylight Time)
+[debug] [2026-03-20T15:06:36.968Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\USER\Desktop\my_first_app\project_blessed\project_success\project_successes\iyadunni_shopmore
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] 
+[debug] [2026-03-20T15:06:42.805Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-03-20T15:06:42.806Z] > authorizing via signed-in user (emmyyiks@gmail.com)
+[debug] [2026-03-20T15:06:42.808Z] Checked if tokens are valid: true, expires at: 1774021789003
+[debug] [2026-03-20T15:06:42.808Z] Checked if tokens are valid: true, expires at: 1774021789003
+[debug] [2026-03-20T15:06:42.809Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/emmyshopping-71589 [none]
+[debug] [2026-03-20T15:06:43.654Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/emmyshopping-71589 200
+[debug] [2026-03-20T15:06:43.654Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/emmyshopping-71589 {"projectId":"emmyshopping-71589","projectNumber":"396790046509","displayName":"Emmyshopping","name":"projects/emmyshopping-71589","resources":{"hostingSite":"emmyshopping-71589"},"state":"ACTIVE","etag":"1_3b7f5280-594b-494e-ba38-a4a0a3db8a1e"}
+[info] i  Using project emmyshopping-71589 (Emmyshopping) . 
+[info] 
+=== Functions Setup
+[debug] [2026-03-20T15:06:43.671Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-03-20T15:06:43.671Z] > authorizing via signed-in user (emmyyiks@gmail.com)
+[debug] [2026-03-20T15:06:43.671Z] [iam] checking project emmyshopping-71589 for permissions ["firebase.projects.get"]
+[debug] [2026-03-20T15:06:43.671Z] Checked if tokens are valid: true, expires at: 1774021789003
+[debug] [2026-03-20T15:06:43.671Z] Checked if tokens are valid: true, expires at: 1774021789003
+[debug] [2026-03-20T15:06:43.672Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/emmyshopping-71589:testIamPermissions [none]
+[debug] [2026-03-20T15:06:43.672Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/emmyshopping-71589:testIamPermissions  x-goog-user-project=emmyshopping-71589
+[debug] [2026-03-20T15:06:43.672Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/emmyshopping-71589:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2026-03-20T15:06:44.923Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/emmyshopping-71589:testIamPermissions 200
+[debug] [2026-03-20T15:06:44.923Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/emmyshopping-71589:testIamPermissions {"permissions":["firebase.projects.get"]}
+[info] Let's create a new codebase for your functions.
+[info] A directory corresponding to the codebase will be created in your project
+[info] with sample code pre-configured.
+
+[info] See https://firebase.google.com/docs/functions/organize-functions for
+[info] more information on organizing your functions using codebases.
+
+[info] Functions can be deployed with firebase deploy.
+
+[info] +  Wrote functions/requirements.txt 
+[info] i  Skipping write of functions/.gitignore 
+[info] +  Wrote functions/main.py 
+[debug] [2026-03-20T15:08:38.819Z] Running command with virtualenv: command="C:\Users\USER\Desktop\my_first_app\project_blessed\project_success\project_successes\iyadunni_shopmore\functions\venv\Scripts\activate.bat", args=["","&&","pip3","install","--upgrade","pip"]
+[debug] [2026-03-20T15:08:38.857Z] Error: spawn "C:\Users\USER\Desktop\my_first_app\project_blessed\project_success\project_successes\iyadunni_shopmore\functions\venv\Scripts\activate.bat" ENOENT
+    at notFoundError (C:\Users\USER\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\cross-spawn\lib\enoent.js:6:26)
+    at verifyENOENT (C:\Users\USER\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\cross-spawn\lib\enoent.js:40:16)
+    at cp.emit (C:\Users\USER\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\cross-spawn\lib\enoent.js:27:25)
+    at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+[error] 
+[error] Error: An unexpected error has occurred.
