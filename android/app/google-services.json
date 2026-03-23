@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "396790046509",
+    "project_id": "emmyshopping-71589",
+    "storage_bucket": "emmyshopping-71589.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:396790046509:android:51324e03621bfb9c737da4",
+        "android_client_info": {
+          "package_name": "com.example.iyadunni_shopmore"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdcSLf30D8CJr01qEPAwJ77mNDbzlRPkM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
